@@ -1,0 +1,237 @@
+body{
+    background-color: lightgray;
+}
+header{
+    background-image: url(../headerbackground.jpg);
+    background-size: cover;
+    background-position: center;
+}
+.c-head1{
+    display: flex;
+    justify-content: space-between;
+    margin: 30px auto 30px auto;
+    align-items: center;
+    padding: 0;
+}
+.c-head1 h1{
+    color: white;
+}
+.head1{
+    border-top: 10px solid black;
+}
+.c-head1 form{
+    display: flex;
+    width: 30%;
+}
+.c-head1 input{
+    width: 100%;
+    padding: 10px;
+    font-style: italic;
+    font-size: small;
+}
+.c-head1 input:focus{
+    outline: none;
+}
+.c-head1 button{
+    background-color: black;
+    color: white;
+    width: 100px;
+}
+.c-head1 button:focus{
+    outline: none;
+}
+.c-head1 a{
+    color: black;
+}
+.c-head1 a:hover{
+    text-decoration: none;
+}
+.navbar-dark .active{
+    color: white;
+    background-color: red;
+    padding: 10px;
+}
+.navbar-dark{
+    padding: 0;
+}
+.navbar-dark .nav-item{
+    padding: 10px;
+}
+.nav-link{
+    color: white;
+}
+.navbar-dark .nav-item:hover{
+    background-color: red;
+    transition: 0.4s ease;
+}
+.tabs{
+    display: flex;
+    justify-content: space-between;
+    background-color: #343a40;
+    padding: 0;
+}
+.nav-item{
+    border-left: 1px solid black;
+    border-right: 1px solid black;;
+}
+.row li{
+    list-style-type: none;
+    padding: 3px;
+    padding-left: 0;
+    margin-left: 0;
+}
+.row li a{
+    color:red;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.row li a:hover{
+    color:brown;
+    text-decoration:none;
+}
+.btn0{
+            position: relative;
+            display: block;
+            font-size: 15px;
+            width: fit-content;
+            padding: 10px 40px;
+            text-decoration: none;
+            border:2px solid red;
+            color: black;
+            background-color: transparent;
+            overflow: hidden;
+            transition: all 0.2s ease;
+        }
+        .btn0::before{
+            background-color: red;
+            content: "";
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%,-50%);
+            z-index: -1;
+            transition: all 0.2s ease;
+        }
+        .btn-10::before{
+            height: 0;
+            width: 100%;
+            transform: translate(-50%,-50%) rotate(70deg);
+        }
+        .btn-10:hover::before{
+            height: 130px;
+        }
+        .btn-10:hover{
+            color: white;
+            text-decoration: none;
+        }
+        .btn-10:active::before{
+            height: 300px;
+        }
+        footer{
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+    font-weight: lighter;
+}
+
+
+@media only screen and (max-width: 1000px) {
+    .c-head1{
+    display: flex;
+    flex-direction:column;
+    margin: 20px auto;
+    align-items: center;
+    padding: 0;
+}
+.c-head1 form{
+    display: flex;
+    width: 80%;
+    margin: 20px auto;
+}
+.c-head1 input{
+    padding: 5px;
+}
+.c-head1 button:focus{
+    outline: none;
+}
+.c-head1 h1{
+    text-align: center;
+    font-size:35px;
+}
+
+.nav-link{
+    font-size: 10px;
+}
+.nav-item a{
+    padding:0px;
+}
+.carousel-item{
+    color: white;
+    text-align: center;
+}
+.navbar-nav{
+    display:flex;
+    flex-direction: row;
+}
+}
+
+@media only screen and (max-width: 700px) {
+    .c-head1{
+    display: flex;
+    flex-direction:column;
+    margin: 20px auto;
+    align-items: center;
+    padding: 0;
+}
+.c-head1 form{
+    display: flex;
+    width: 80%;
+    margin: 20px auto;
+}
+.c-head1 input{
+    padding: 5px;
+}
+.c-head1 button:focus{
+    outline: none;
+}
+.c-head1 h1{
+    text-align: center;
+    font-size:35px;
+}
+
+.nav-link{
+    font-size: 10px;
+}
+.nav-item a{
+    padding:0px;
+}
+.carousel-item{
+    color: white;
+    text-align: center;
+}
+.navbar-nav{
+    display:flex;
+    flex-direction: row;
+}
+
+
+.container-fluid{
+    height: 400px;
+}
+.carousel-inner h1{
+    font-size: 50px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.carousel-inner h5{
+    font-size: 15px;
+    width: 70%;
+    margin: auto;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.middle2 a{
+    width: 150px;
+    margin: auto;
+}
+}

@@ -1,0 +1,379 @@
+html,body{
+        font-family: 'Raleway', sans-serif;
+    -webkit-font-smoothing: antialiased;
+    margin:0;
+}
+*{
+    box-sizing: border-box;
+}
+header{
+    height: 400px;
+    color: white;
+    background-image: url(../codingExample/header-background.jpg);
+}
+.header-tabs{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    padding: 70px 0 70px 0;
+}
+.nav-link{
+    color: white;
+}
+.nav-link:hover{
+    color: red;
+}
+.tabs-login{
+    width: 150px;
+    padding: 10px;
+}
+
+
+.middle-container{
+    position:absolute;
+    top: 225px;
+    left: 0;
+    right: 0;
+    margin: auto;
+}
+.middleContainer-list a,.middleContainer-list{
+    font-weight: bold;
+    font-size:large;
+    color: white;
+    list-style-type: none;
+    display: flex;
+}
+.middleContainer-list li{
+    padding: 2px;
+}
+.courseSearch-heading{
+    font-size: 25px;
+    font-weight: bolder;
+    color: white;
+    border: 1px solid black;
+    width: fit-content;
+    padding: 5px 30px 5px 30px;
+    margin: auto;
+    text-align: center;
+    background-color: red;
+}
+.courseSearch-form{
+    background-color: red;
+    width: 100%;
+    justify-content: space-evenly;
+    padding: 30px;
+    margin: auto;
+}
+.courseSearch-form>.form-control{
+    width:  350px;
+    margin: 30px 20px 27px 20px;
+    font-size: small;
+    font-style: italic;
+    height: 40px;
+    outline: none;
+    box-shadow:none !important;
+}
+.courseSearch-form>.btn-primary{
+    background-color: black;
+    outline: none;
+    width: 200px;
+    box-shadow:none !important;
+}
+.courseSearch-form>.btn-primary:hover{
+    background-color: black;
+}
+.courseSearch-form>.btn-primary:active{
+    background-color: black;
+}
+
+
+
+.blog-container{
+    margin-top: 200px;
+}
+.blog{
+    margin-bottom: 80px;
+}
+
+.blog h3{
+    font-weight: 600;
+    color: #474747;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    margin: 50px auto 20px auto;
+}
+.meta-container{
+    display: flex;
+    margin: 20px;
+    margin-left: 0;
+}
+.blog-meta{
+    padding: 5px;
+    border-right: 3px solid lightblue;
+    font-size: 14px;
+    font-weight: 600;
+    color: #878787;
+        font-family: 'Raleway', sans-serif;
+    -webkit-font-smoothing: antialiased;
+}
+.blog-meta-last{
+    padding: 5px;
+    font-size: 14px;
+    font-weight: 600;
+    color: #878787;
+        font-family: 'Raleway', sans-serif;
+    -webkit-font-smoothing: antialiased;
+}
+.blog-meta a{
+     padding: 5px;
+    font-size: 14px;
+    font-weight: 600;
+    color: #878787;
+        font-family: 'Raleway', sans-serif;
+    -webkit-font-smoothing: antialiased;
+}
+.blog-meta img{
+    height: 25px;
+    width: 25px;
+    border-radius: 50%;
+}
+.img-responsive{
+    height: 313px;
+    width: 100%;
+}
+.blog-but{
+        display: inline-block;
+    min-width: 196px;
+    text-align: center;
+    border: none;
+    padding: 15px 10px;
+    font-weight: 600;
+    font-size: 16px;
+    position: relative;
+    color: #fff;
+    cursor: pointer;
+    background: #d82a4e;
+}
+.blog-but:hover{
+    outline: none;
+    box-shadow: none;
+    text-decoration:none;
+}
+form{
+    display: flex;
+}
+form input{
+        width: 100%;
+    height: 57px;
+    background: #edf4f6;
+    font-size: 12px;
+    padding: 5px 24px;
+    padding-right: 55px;
+    border: none;
+    border:none;
+    outline: none;
+    box-shadow: none;
+}
+form button{
+    display: inline-block;
+    font: normal normal normal 14px/1 FontAwesome;
+    font-size: inherit;
+    text-rendering: auto;
+    -webkit-font-smoothing: antialiased;
+    border:none;
+    outline: none;
+    box-shadow: none;
+}
+.fa{
+    background-color: transparent;
+}
+
+.categories{
+    margin-bottom: 50px;
+}
+.categories-container ul{
+    list-style-type: none;
+    padding-left: 33px;
+}
+.categories-container li{
+        display: block;
+    margin-bottom: 12px;
+    font-family: 'Raleway', sans-serif;
+}
+.col3-section{
+    margin-bottom: 75px;
+}
+.categories-container a{
+        color: #9e9e9e;
+    display: inline-block;
+    font-size: 16px;
+    font-weight: 500;
+}
+.tags a{
+    font-size: 16px;
+    display: inline-block;
+    padding: 9px 24px;
+    color: #fff;
+    background: #d82a4e;
+    margin-bottom: 10px;
+    margin-right: 6px;
+    font-weight: 500;
+}
+.site-pagination {
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+.site-pagination span.active {
+    color: #d82a4e;
+}
+
+.site-pagination a, .site-pagination span {
+    font-size: 16px;
+    color: #474747;
+    font-weight: 600;
+}
+.footer-container{
+    background-color: greenyellow;
+}
+
+footer{
+    margin-top: 60px;
+}
+
+@media only screen and (max-width: 900px) {
+    header .tabs-pagetitle h1{
+    font-size: 20px;
+}
+.nav-link{
+    font-size: 14px;
+    padding: 0;
+}
+.tabs-login{
+    width: auto;
+    padding: 0;
+}
+header{
+    height: 300px;
+}
+.nav-link{
+    margin: 8px
+}
+.middle-container{
+    top: 150px;
+}
+.middleContainer-list a,.middleContainer-list{
+    font-weight: bold;
+    font-size:small;
+}
+.courseSearch-heading{
+    font-size: 15px;
+}
+.courseSearch-form>.form-control{
+    width:  45%;
+    margin: 20px auto 16px auto;
+    height: 30px;
+}
+.courseSearch-form>.btn-primary{
+    background-color: black;
+    outline: none;
+    width: fit-content;
+    font-size: smaller;
+    box-shadow:none !important;
+}
+
+
+.blog-container{
+    margin-top: 120px;
+}
+.blog{
+    margin-bottom: 40px;
+}
+
+.blog h3{
+    font-size: large;
+    margin: 25px auto 10px auto;
+}
+.meta-container{
+    margin: 10px;
+    margin-left: 0;
+}
+.blog-meta{
+    padding: 2px;
+    font-size: 9px;
+    color: #878787;
+}
+.blog-meta-last{
+    padding: 2px;
+    font-size: 9px;
+}
+.blog-meta a{
+     padding: 2px;
+    font-size: 9px;
+}
+.blog-meta img{
+    height: 15px;
+    width: 15px;
+}
+.img-responsive{
+    height: 150px;
+    width: 80%;
+}
+.blog-but{
+    min-width: 100px;
+    font-size: 10px;
+    position: relative;
+    cursor: pointer;
+    background: #d82a4e;
+}
+.fa{
+    background-color: transparent;
+}
+
+.categories{
+    margin-bottom: 25px;
+}
+.categories-container ul{
+    list-style-type: none;
+    padding-left: 18px;
+}
+.categories-container li{
+    margin-bottom: 9px;
+}
+.col3-section{
+    margin-bottom: 35px;
+}
+.categories-container a{
+    font-size: 13px;
+    font-weight: 500;
+}
+.tags a{
+    font-size: 13px;
+    display: inline-block;
+    padding: 7px 20px;
+    color: #fff;
+    background: #d82a4e;
+    margin-bottom: 10px;
+    margin-right: 6px;
+    font-weight: 500;
+}
+.site-pagination {
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+.site-pagination span.active {
+    color: #d82a4e;
+}
+
+.site-pagination a, .site-pagination span {
+    font-size: 16px;
+    color: #474747;
+    font-weight: 600;
+}
+.footer-container{
+    background-color: greenyellow;
+}
+
+footer{
+    margin-top: 60px;
+}
+
+}

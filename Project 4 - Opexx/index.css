@@ -1,0 +1,99 @@
+.nav{
+    background-color: rgb(82, 82, 194);
+}
+.nav a{
+    color: white;
+}
+.banner{
+    background-image: url(./banner.jfif);
+    height: 750px;
+    background-size: cover;
+    color: white;
+    text-align: center;
+}
+.banner-container h1{
+    font-size: 50px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    padding-top: 100px;
+}
+.banner-container .btn-success{
+    padding: 10px 40px;
+}
+.down-heading{
+    position: relative;
+    top: 350px;
+}
+.middle .row{
+    text-align: center;
+}
+.row1 h1{
+    margin: 30px auto;
+}
+.middle .row{
+    margin: 20px auto;
+}
+.middle .col-6{
+    color: grey;
+}
+.fa{
+    font-size: 70px;
+    margin: 15px auto;
+    color: rgb(82, 82, 194);
+}
+.middle .col-6 h2{
+    margin: 20px auto;
+}
+.middle .col-6 .btn{
+    margin-top: 10px;
+}
+.jumbotron-fluid{
+    text-align: center;
+    padding: 0;
+}
+.jumbotron-fluid .row1{
+    padding: 20px auto;
+}
+.company .col-lg-4 img:nth-last-child(3){
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;
+}
+.company .col-lg-4 img:first-child{
+    width: 200px;
+}
+.company .col-lg-4 p:nth-child(2){
+    padding: 50px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 500;
+}
+.company .col-lg-4 p:nth-child(5){
+    color: grey;
+}
+p{
+    font-family: Arial, Helvetica, sans-serif;
+}
+footer{
+    text-align: center;
+    font-family:fantasy;
+}
+
+@media only screen and (max-width:700px) {
+    .banner-container h1{
+        font-size: 35px;
+    }
+    .middle .row1 h1{
+        font-size: 30px;
+    }
+    .middle .row .col-6 h2{
+        font-size: 23px;
+    }
+        .middle .row .col-6 h5{
+            font-size: 14px;
+        }
+    .jumbotron-fluid .row1 h2{
+        font-size: 20px;
+    }
+    .jumbotron-fluid .row1 h5{
+        font-size: 15px;
+    }
+}

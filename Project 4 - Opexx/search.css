@@ -1,0 +1,114 @@
+.main-tab{
+    background-color: rgb(82, 82, 194);
+}
+.nav a{
+    color: white;
+}
+.tab-content input:focus{
+    outline: none;
+    box-shadow: none;
+}
+.tab-content input{
+    width: 45%;
+}
+.tab-content input{
+    border: none;
+    padding: 10px;
+    font-size: small;
+    font-style: italic;
+    margin: 10px 20px;
+}
+.tab-content .form-inline input:first-child{
+    width: 60%;
+}
+.jumbotron{
+    padding:10px;
+    background-color: rgb(114, 191, 194);
+}
+.tab-content .form-inline input:nth-child(2){
+    width: 30%;
+}
+.nav-pills a{
+    color:white;
+}
+.nav-pills a:hover{
+    color: black;
+}
+.nav.nav-pills{
+    display: flex;
+    justify-content: center;
+}
+.tab-content #toggle-tab input{
+    width: 45%;
+}
+.nav-pills .nav-item .active{
+    background-color: transparent;
+    text-decoration: underline;
+    color: black;
+}
+#home h6{
+    color: white;
+    text-align: center;
+}
+#home h6:hover{
+    text-decoration: underline;
+    cursor:pointer;
+}
+.para{
+    font-weight: 400;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    width: 70%;
+    margin: auto;
+    color: white;
+    text-align: center;
+    padding: 25px;
+}
+#menu1 .btn{
+    width: 40%;
+    margin: 10px;
+}
+.last-container{
+    text-align: center;
+}
+.last-container p:first-child{
+    font-size: 55px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.last-container p:nth-child(2){
+    font-size: 30px;
+    color: rgb(44, 39, 196);
+    margin: 30px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+@media only screen and (max-width:700px) {
+    .tab-content input{
+    width: 40%;
+}
+.tab-content input{
+    border: none;
+    padding: 5px;
+    font-size: small;
+    font-style: italic;
+}
+
+.tab-content .form-inline input:first-child{
+    width: 40%;
+}
+.tab-content .form-inline input:nth-child(2){
+    width: 40%;
+}
+.tab-content #toggle-tab input{
+    width: 40%;
+}
+.last-container p:first-child{
+    font-size: 40px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.last-container p:nth-child(2){
+    font-size: 20px;
+    color: rgb(44, 39, 196);
+    margin: 30px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+}

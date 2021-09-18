@@ -1,0 +1,173 @@
+html,body{
+    margin:0;
+}
+header{
+    height: 400px;
+    color: white;
+    background-image: url(header-background.jpg);
+}
+.header-tabs{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    padding: 70px 0 70px 0;
+}
+.nav-link{
+    color: white;
+}
+.nav-link:hover{
+    color: red;
+}
+.tabs-login{
+    width: 150px;
+    padding: 10px;
+}
+
+
+
+
+
+.middle-container{
+    position:absolute;
+    top: 225px;
+    left: 0;
+    right: 0;
+    margin: auto;
+}
+.middleContainer-list a,.middleContainer-list{
+    font-weight: bold;
+    font-size:large;
+    color: white;
+    list-style-type: none;
+    display: flex;
+}
+.middleContainer-list li{
+    padding: 2px;
+}
+.courseSearch-heading{
+    font-size: 25px;
+    font-weight: bolder;
+    color: white;
+    border: 1px solid black;
+    width: fit-content;
+    padding: 5px 30px 5px 30px;
+    margin: auto;
+    text-align: center;
+    background-color: red;
+}
+.courseSearch-form{
+    background-color: red;
+    width: 100%;
+    justify-content: space-evenly;
+    padding: 30px;
+    margin: auto;
+}
+.courseSearch-form>.form-control{
+    width:  350px;
+    margin: 30px 20px 27px 20px;
+    font-size: small;
+    font-style: italic;
+    height: 40px;
+    outline: none;
+    box-shadow:none !important;
+}
+.courseSearch-form>.btn-primary{
+    background-color: black;
+    outline: none;
+    width: 200px;
+    box-shadow:none !important;
+}
+.courseSearch-form>.btn-primary:hover{
+    background-color: black;
+}
+.courseSearch-form>.btn-primary:active{
+    background-color: black;
+}
+.cards-container{
+    margin-top: 50px;
+}
+.sub-cards-container{
+    display: grid;
+    grid-template-columns: auto auto auto;
+}
+.card{
+    height: fit-content;
+    margin: 10px;
+}
+.card .card-body{
+    color: grey;
+    font-weight: bolder;
+}
+
+
+
+
+footer{
+    margin-top: 100px;
+}
+.footer-container{
+    background-color: greenyellow;
+}
+hr{
+    margin-top: 120px;
+}
+
+@media only screen and (max-width: 900px) {
+    header .tabs-pagetitle h1{
+    font-size: 20px;
+}
+.nav-link{
+    font-size: 14px;
+    padding: 0;
+}
+.tabs-login{
+    width: auto;
+    padding: 0;
+}
+header{
+    height: 300px;
+}
+.nav-link{
+    margin: 8px
+}
+.middle-container{
+    top: 150px;
+}
+.middleContainer-list a,.middleContainer-list{
+    font-weight: bold;
+    font-size:small;
+}
+.courseSearch-heading{
+    font-size: 15px;
+}
+.courseSearch-form>.form-control{
+    width:  45%;
+    margin: 20px auto 16px auto;
+    height: 30px;
+}
+.courseSearch-form>.btn-primary{
+    background-color: black;
+    outline: none;
+    width: fit-content;
+    font-size: smaller;
+    box-shadow:none !important;
+}
+.sub-cards-container{
+    display: grid;
+    grid-template-columns: auto auto;
+}
+.card{
+    height: fit-content;
+    margin: 2px;
+}
+.cards-container{
+    margin-top: 25px;
+}
+.cards-container li{
+    font-size: small;
+    font-weight: bold;
+}
+footer a{
+    font-size: small;
+}
+}

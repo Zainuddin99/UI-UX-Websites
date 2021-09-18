@@ -1,0 +1,108 @@
+.navbar{
+    display: flex;
+    justify-content: space-between;
+}
+.main-nav{
+    display: flex;
+}
+.navbar input:focus{
+    outline: none;
+}
+.form-inline button{
+    background-color: black;
+    color: white;
+}
+.form-inline button:focus{
+    outline: none;
+}
+
+.jumbotron-fluid{
+    background-image: url(./database\ tutorial.jfif);
+    color: white;
+    background-size: cover;
+    height: 600px;
+    display: flex;
+    margin-bottom: 0;
+    align-items: center;
+}
+.jumbotron .container h1{
+    font-size: 70px;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.jumbotron .container p{
+    font-size: 25px;
+}
+
+.row1 .col-lg-4{
+    text-align: center;
+    color: white;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.container-fluid{
+    padding: 5px;
+    background-image: linear-gradient(to right,darkred,rgb(231, 107, 107));
+}
+
+.cards-jumbotron{
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    justify-content: space-evenly;
+}
+.card{
+    margin: 20px;
+}
+.card:hover{
+    box-shadow:  10px 10px 4px grey;
+}
+.card h4{
+    font-size: 20px;
+}
+.card p{
+    font-size: 14px;
+}
+.row2 .col-lg-4{
+    text-align: center;
+}
+.row2 ul{
+    list-style-type: none;
+}
+.f1{
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+.f2{
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding: 15px;
+}
+@media only screen and (max-width: 700px) {
+    .cards-jumbotron{
+    display: grid;
+    grid-template-columns: auto auto;
+    justify-content: space-evenly;
+}
+.card{
+    margin: 5px;
+}
+.jumbotron-fluid{
+    height: 400px;
+}
+.jumbotron-fluid .container h1{
+    font-size: 40px;
+}
+.jumbotron-fluid .container p{
+    font-size: 16px;
+}
+.dropdown{
+    font-size: small;
+}
+.navbar a{
+    font-size: small;
+}
+.dropdown a{
+    margin: 0;
+    padding: 0;
+}
+
+}

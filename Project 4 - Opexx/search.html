@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Latest compiled and minified CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+
+    <!-- jQuery library -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+
+    <!-- Popper JS -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+
+    <!-- Latest compiled JavaScript -->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <script src='https://kit.fontawesome.com/a076d05399.js' crossorigin='anonymous'></script>
+    <link rel="stylesheet" href="search.css">
+    <script>
+        $(document).ready(()=>{
+            $("#toggle-but").click(()=>{
+                $("#toggle-tab").slideToggle("fast");
+            })
+        })
+    </script>
+    <title>Document</title>
+</head>
+
+<body>
+    <ul class="nav main-tab">
+        <li class="nav-item">
+            <a class="nav-link" href="./index.html">OPEXXX</a>
+        </li>
+        <li class="nav-item">
+            <a class="nav-link" href="./search.html">SEARCH</a>
+        </li>
+        <li class="nav-item">
+            <a class="nav-link" href="./pricing.html">PRICING</a>
+        </li>
+    </ul>
+    <div class="jumbotron jumbotron-fluid">
+        <ul class="nav nav-pills">
+            <li class="nav-item">
+                <a class="nav-link active" data-toggle="pill" href="#home">Live Tenders</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" data-toggle="pill" href="#menu1">Winner</a>
+            </li>
+        </ul>
+        
+        <!-- Tab panes -->
+        <div class="tab-content">
+            <div class="tab-pane container active" id="home">
+                <form action="" class="form-inline">
+                    <input type="text" placeholder="Keyword">
+                    <input type="text" placeholder="Location">
+                    <div style="display: none;" id="toggle-tab">
+                    <input type="text" placeholder="Min Value">
+                    <input type="text" placeholder="Max Value">
+                    <input type="text" placeholder="Buyer Name">
+                    <input type="text" placeholder="CPV">
+                    <input type="text" placeholder="Published">
+                    <input type="text" placeholder="Deadline">
+                    </div>
+                </form>
+                <h6 id="toggle-but">Show More/Less</h6>
+            </div>
+            <div class="tab-pane container fade" id="menu1">
+                <div class="para">Winner and award information allow you to analyze previously awarded contracts. Start your free
+                14-day trial now to see which companies have won tenders and which organizations have issued
+                tenders before.</div>
+                <div style="display: flex;justify-content: center;">
+                <button class="btn btn-success">Start free trial</button>
+                <button class="btn btn-light">Start free trial</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="last-container">
+    <p>9,000,000 tenders at your fingertips.</p>
+    <p>Start free trial for 14 days. No credit card needed.</p>
+    <button class="btn btn-success">Start free trial</button>
+    </div>
+</body>
+</html>

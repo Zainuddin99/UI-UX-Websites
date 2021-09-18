@@ -1,0 +1,195 @@
+html,body{
+    margin:0;
+}
+header{
+    height: 850px;
+    background-image: url(headerbackground.jpg);
+    color: white;
+}
+.header-tabs{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    padding: 70px 0 70px 0;
+}
+header .tabs-pagetitle a{
+    color: white;
+}
+header .tabs-pagetitle a:hover{
+    text-decoration: none;
+    color: lightgray;
+}
+.nav.tabs-middle{
+    width: 50%;
+    display: flex;
+    justify-content: space-evenly;
+}
+.nav-link{
+    color: white;
+}
+.nav-link:hover{
+    color: red;
+}
+.tabs-login{
+    width: 150px;
+    padding: 10px;
+}
+.tabs-container{
+    text-align: center;
+    padding-top: 7%;
+}
+.form-inline{
+    display: flex;
+    justify-content: center;
+}
+.tabs-container-text{
+    font-size: 60px;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif
+}
+.form-inline>button{
+    background-color: red;
+}
+.form-inline>button:hover{
+    background-color: red;
+}
+
+
+.head{
+    text-align: center;
+    padding: 0;
+}
+.jumbotron-heading{
+    margin: 90px auto 75px auto;
+}
+.cards-container{
+    display: grid;
+    grid-template-columns: 32% 32% 32%;
+    justify-content: space-around;
+    text-align: left;
+}
+.card>img{
+    height: 200px;
+}
+.headerTabs-form>.form-control{
+    width: 300px;
+    margin: 10px;
+    font-style: italic;
+    font-size: small;
+}
+.card-courseNumber{
+    color: red;
+    font-weight: bold;
+}
+.courseNumber-sub{
+    position: relative;
+    top: 2px;
+}
+.cardheaad-container{
+    padding: 35px;
+}
+.card:hover{
+    
+    background-color: red;
+    color: white;
+    transition: all 0.7s ease;
+}
+.card:hover>.cardheaad-container>*{
+    color: white;
+}
+.courseSearch-jumbotron{
+    background-color: red;
+    color: white;
+}
+.courseSearch-heading{
+    text-align: center;
+    padding-bottom: 20px;
+}
+.courseSearch-form{
+    background-color: white;
+    width: 80%;
+    margin: auto;
+}
+.courseSearch-form>.form-control{
+    width:  280px;
+    margin: 30px 20px 27px 20px;
+    font-size: small;
+    font-style: italic;
+    height: 40px;
+    background-color: rgb(233, 229, 229);
+    outline: none;
+    box-shadow:none !important;
+}
+.courseSearch-form>.form-control:focus{
+    border-bottom: 3px solid red;
+}
+.courseSearch-form>.btn-primary:hover{
+    background-color: darkred;
+}
+.courseSearch-form>.btn-primary:active{
+    background-color: red;
+}
+.footer-container{
+    background-color:greenyellow;
+}
+.login a{
+    color: white;
+}
+.login a:hover{
+    text-decoration: none;
+}
+.tabs-text-container{
+    padding-bottom: 100px;
+}
+
+@media only screen and (max-width: 900px) {
+    header .tabs-pagetitle h1{
+    font-size: 20px;
+}
+.nav-link{
+    font-size: 14px;
+    padding: 0;
+}
+.tabs-login{
+    width: auto;
+    padding: 0;
+}
+.nav.tabs-middle{
+    width: 60%;
+}
+.header-tabs{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    padding: 30px 0 30px 0;
+}
+.tabs-container{
+    padding-top: 10px;
+}
+.tabs-container-text{
+    font-size: 30px;
+}
+.tabs-text-container{
+    padding-bottom: 40px;
+}
+.headerTabs-form>.form-control{
+    width: 35%;
+    margin: 5px;
+}
+header{
+    height: fit-content;
+}
+.jumbotron-heading{
+    margin: 50px auto 30px auto;
+}
+.jumbotron-heading h1{
+    font-size: 40px;
+}
+.jumbotron-heading h5{
+    font-size: 14px;
+}
+.cards-container{
+
+    display: grid;
+    grid-template-columns: auto auto;
+}
+}

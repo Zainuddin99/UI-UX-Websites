@@ -1,0 +1,72 @@
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    background-color: black;
+    padding:15px;
+}
+.navbar .navbar-dark{
+    background-color: black;
+}
+.carousel-container{
+    background-color: black;
+}
+.navbar-brand{
+    color: grey;
+    font-size: 30px;
+}
+.navbar-brand span{
+    color: red;
+}
+.list li{
+    display: inline-block;
+    padding: 10px;
+}
+.list{
+    background-color: lightgray;
+}
+.col-lg-8 > h6{
+    background-color: #007bff;
+    color: white;
+    padding: 15px;
+    margin-bottom: 0;
+}
+.col-lg-8 > form{
+    padding: 20px 15px;
+    border: 1px solid lightgrey;
+}
+.col-lg-4 h6{
+    color: white;
+    padding: 15px;
+    margin-bottom: 0;
+    background-color: green;
+}
+.col-lg-4 ul{
+    list-style-type: none;
+    padding: 10px 30px;
+    background-color: rgb(250, 245, 245);
+}
+.address li{
+    margin: 10px;
+}
+footer{
+    text-align: center;
+    color: white;
+    background-color: rgb(26, 25, 25);
+    padding: 50px;
+}
+footer i{
+    color: white;
+}
+footer a:hover{
+    opacity: 0.5;
+}
+@media only screen and (max-width:700px) {
+    .navbar .nav-link{
+        font-size: small;
+        margin: 10px;
+        }
+        .navbar-nav{
+            display: flex;
+            flex-direction: row;
+        }
+    }
